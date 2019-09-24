@@ -1,0 +1,21 @@
+// Datei: Pkw.java
+class Pkw extends Fahrzeug
+{
+   private String fahrzeugtyp = "Pkw";
+   private String modellBezeichnung;
+
+   public Pkw()
+   {
+      . . . . .// Aufruf des Konstruktors
+               // der Basisklasse
+
+      System.out.print ("Geben Sie die "
+                        + "Modellbezeichnung ein: ");
+      modellBezeichnung = eingabe.next();
+   }
+
+   public void print()
+   {
+      . . . . . .
+   }
+}
